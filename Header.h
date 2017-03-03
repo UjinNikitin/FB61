@@ -29,5 +29,5 @@ public:
 private:
 	int nm;
 	int *mark = new int[nm];
-	void WatchMarks();
+	void WatchMarks(); //not for you
 };
