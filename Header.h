@@ -32,7 +32,7 @@ private:
 	void WatchMarks();
 };
 
-class BadStudent: public Student
+class BadStudent: public Student //Ujin Nikitin
 {
 public:
 	BadStudent(): Student
