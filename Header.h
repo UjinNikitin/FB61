@@ -29,5 +29,10 @@ public:
 private:
 	int nm;
 	int *mark = new int[nm];
-	void WatchMarks(); //not for you
+	void WatchMarks();
 };
+
+class BadStudent: public Student
+public:
+	BadStudent(): Student
+	{}
